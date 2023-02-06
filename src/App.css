@@ -1,0 +1,79 @@
+*{
+  margin: 0rem;
+  padding: 0rem;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.footer{
+  background-color: rgb(169, 210, 210);
+  height: 15vh;
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+}
+.header{
+  background-color: beige;
+  height: 6rem;
+
+}
+.emoji{
+  padding: 1rem;
+  margin: 3rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+  width: 50%;
+}
+.text{
+  font-family: 'Dancing Script', cursive;
+  text-transform: uppercase;
+}
+.input{
+  margin: 1rem;
+  padding: 1rem 1rem;
+  font-size: x-large;
+  text-align: center;
+
+
+}
+.textt{
+  font-family:  'Dancing Script', cursive;
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 1.5rem;
+}
